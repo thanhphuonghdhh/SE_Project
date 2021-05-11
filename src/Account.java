@@ -56,4 +56,8 @@ public class Account {
         this.password = password;
     }
 
+    public String to_String() {
+        return ID+","+name+","+age+","+position+","+password+"\n";
+    }
+
 }

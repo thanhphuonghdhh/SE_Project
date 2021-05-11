@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class AccList {
-    private ArrayList<Account> accounts = new ArrayList<>();
+    public ArrayList<Account> accounts = new ArrayList<>();
     public void push(Account account) {
         accounts.add(account);
     }
